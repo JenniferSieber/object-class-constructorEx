@@ -30,10 +30,10 @@ hotEspresso.help();
 class MakeEspresso {
   constructor(name, cost, color,warranty) {
     this.name = name
-  this.cost = cost
-  this.color = color
-  this.warranty = warranty
-  }
+    this.cost = cost
+    this.color = color
+    this.warranty = warranty
+ }
 
   makeEspresso() {
     console.log(`${this.name} is making a 4 shot espresso, WAKE UP!`);
