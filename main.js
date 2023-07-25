@@ -48,7 +48,7 @@ class MakeEspresso {
   }
 }
 
-let amazingEspresso = new MakeEspresso('Amazing Espresso', 189, 'stainless steel', 5);
+const amazingEspresso = new MakeEspresso('Amazing Espresso', 189, 'stainless steel', 5);
 amazingEspresso.help();
 amazingEspresso.receipt();
 amazingEspresso.makeEspresso();
