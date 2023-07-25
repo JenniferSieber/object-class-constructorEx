@@ -52,3 +52,8 @@ const amazingEspresso = new MakeEspresso('Amazing Espresso', 189, 'stainless ste
 amazingEspresso.help();
 amazingEspresso.receipt();
 amazingEspresso.makeEspresso();
+
+// Add prototype for bluetooth on the constructor and the class for has bluetooth
+EspressoMachine.prototype.bluetooth = true;
+MakeEspresso.prototype.bluetooth = true;
+
