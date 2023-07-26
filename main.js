@@ -1,4 +1,5 @@
 //Create an espresso machine constructor that makes machines with 4 properties and 3 methods
+// #100Devs Thanks Leon Noel
 
 function EspressoMachine(name, cost, color,warranty) {
   this.name = name;
